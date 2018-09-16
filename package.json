@@ -1,0 +1,30 @@
+{
+  "name": "web-app-es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --colors --progress",
+    "watch": "npm run build -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luanpontolio/web-app-es6.git"
+  },
+  "keywords": [],
+  "author": "Luan Pontolio <luan.pontolio@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luanpontolio/web-app-es6/issues"
+  },
+  "homepage": "https://github.com/luanpontolio/web-app-es6#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015-native-modules": "^6.9.4",
+    "ramda": "^0.25.0",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "webpack": "^4.19.0"
+  }
+}
